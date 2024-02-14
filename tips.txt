@@ -1,0 +1,12 @@
+use
+
+// +build tag_name1 tag_name2
+// +build tag_name3
+
+at the top of the file, and then
+
+$ go build -tags tag_name
+
+to do conditional compilation
+
+the condition here is (tag_name1 || tag_name2) && (tag_name3)

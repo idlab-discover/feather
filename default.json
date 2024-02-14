@@ -1,0 +1,5 @@
+{
+  "serverCertPath": "ca.crt",
+  "serverKeyPath": "ca.key",
+  "providerConfig": "provider.json"
+}
